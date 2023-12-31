@@ -9,7 +9,7 @@ const Navbar = async () => {
 
   return (
     <div className="flex items-center p-4">
-      <MobileSidebar apiLimitCount={apiLimitCount} />
+      <MobileSidebar isPro={isPro} apiLimitCount={apiLimitCount} />
       <div className="flex w-full justify-end">
         <UserButton />
       </div>
