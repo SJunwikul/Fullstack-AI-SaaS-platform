@@ -20,7 +20,7 @@ const MobileSidebar = ({
 
   useEffect(() => {
     setIsMounted(true);
-  });
+  }, []);
 
   if (!isMounted) {
     return null;
